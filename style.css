@@ -1,0 +1,75 @@
+h1 {
+    color: white;
+    margin:30px;
+    border:solid;
+    padding:5px;
+}
+
+/* * {
+    border: solid;
+} */
+
+   
+.header{
+    background-color:darkmagenta;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    background-color:lightpink;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    margin:15px
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2,h3{
+    text-align: center;
+}
+a:link{
+    color:white;
+    font-family:  'Lucida Grande';
+}
+a:visited{
+    color:black;
+}
+.menu{
+    margin:20px;
+}
+.menu a{
+    margin-left:15px;
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity:0.33;
+}
+.text{
+    background-color: lightpink;
+}
+.ab{
+    background-color: lightpink;
+}
